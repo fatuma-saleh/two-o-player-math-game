@@ -10,7 +10,7 @@ class Game
   end
 
   def defeat(player)
-    
+
     if player == @player1.name
       @player1.score = @player1.score - 1
     elsif player == @player2.name
@@ -22,7 +22,7 @@ class Game
   def change_player
     if @current_player == @players[0]
       @current_player = @players[1]
-    else
+    elsif
       @current_player = @players[0]
     end
   end
