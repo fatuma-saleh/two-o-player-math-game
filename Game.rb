@@ -10,6 +10,7 @@ class Game
   end
 
   def defeat(player)
+    
     if player == @player1.name
       @player1.score = @player1.score - 1
     elsif player == @player2.name
