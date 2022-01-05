@@ -2,7 +2,7 @@
 
 Player 1: What does 5 plus 3 equal?
 > 9
-Player 1: sSeriously? No!
+Player 1: No!
 P1: 2/3 vs P2: 3/3
 ------ NEW TURN ------
 

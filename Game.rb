@@ -6,11 +6,16 @@ class Game
     @players=[player1.name, player2.name]
     @current_player = @players[0]
     @player1 = player1
+    @player2 = player2
   end
 
-  def defeat()
-    # @current_player -= 1
-    @player1.score = @player1.score - 1
+  def defeat(player)
+    if player == @player1.name
+      @player1.score = @player1.score - 1
+    elsif player == @player2.name
+      @player2.score = @player2.score - 1
+    end
+
   end
 
   def change_player

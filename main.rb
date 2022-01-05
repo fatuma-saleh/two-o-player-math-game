@@ -20,7 +20,7 @@ input = gets.chomp.to_i
 if input == question.ans
   puts "#{game.current_player}: Correct!"
 else
-  game.defeat
+  game.defeat(game.current_player)
   puts "#{game.current_player}: Incorrect!"
 end
 
